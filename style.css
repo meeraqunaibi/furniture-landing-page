@@ -1,0 +1,92 @@
+body {
+  margin: 0px 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 5px 0px;
+  text-transform: uppercase;
+}
+header .navbar-icon {
+  margin-right: 16px;
+}
+header .navbar-icon span {
+  color: #272727;
+  font-size: 22px;
+  font-weight: 700;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  color: #272727;
+  padding-left: 0px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+header nav ul li {
+  padding: 3px 15px;
+  margin: 10px 15px;
+}
+header nav a {
+  margin-right: 16px;
+}
+
+.landing-intro {
+  background: #f9fafa;
+  padding: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 90vh;
+}
+.landing-intro ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.landing-intro-content {
+  display: flex;
+  margin: 0px 15px;
+}
+.landing-intro-content .detail-box {
+  padding: 0px 15px;
+}
+.landing-intro-content img {
+  padding: 0px 15px;
+}
+.landing-intro-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.landing-intro-content p {
+  margin: 25px 0px;
+}
+.landing-intro-content .btn-box {
+  width: 100%;
+}
+.landing-intro-content .btn-box .btn1 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #6bb7be;
+  color: #ffffff;
+  border: 1px solid #6bb7be;
+}
+.landing-intro-content .btn-box .btn2 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f89646;
+  color: #ffffff;
+  border: 1px solid #f89646;
+}/*# sourceMappingURL=style.css.map */
